@@ -1,0 +1,65 @@
+/* Basic Reset */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header & Logo Styling */
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.title-container h1 {
+    margin: 0;
+    font-size: 24px; /* Adjust based on your preference */
+}
+
+.logo-container img {
+    height: 80px; /* Increase logo size */
+    margin-left: 20px;
+}
+
+}
+
+/* Introduction Section */
+.introduction {
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+/* Video Categories & Videos */
+.video-categories h2 {
+    cursor: pointer;
+    color: #0056b3; /* This is a clickable color */
+    margin-bottom: 5px;
+    padding: 5px 20px;
+}
+
+.videos {
+    display: none; /* Hidden by default */
+    padding: 0 20px;
+}
+
+.videos a {
+    display: block;
+    margin-bottom: 5px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.videos a:hover {
+    text-decoration: underline;
+}
+
+.hidden {
+    display: none;
+}

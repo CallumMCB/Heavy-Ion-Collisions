@@ -23,12 +23,21 @@ body {
     font-size: 24px; /* Adjust based on your preference */
 }
 
-.logo-container img {
-    height: 80px; /* Increase logo size */
-    margin-left: 20px;
+footer {
+    text-align: center;
+    padding: 20px 0; /* Adjust padding as needed */
+    background-color: #f4f4f4; /* Optional: background color for the footer */
 }
 
+.logo-container {
+    display: inline-block;
 }
+
+.logo-container img {
+    height: 80px; /* Adjust based on your preference */
+    margin: 0 15px; /* Space out the logos */
+}
+
 
 /* Introduction Section */
 .introduction {
